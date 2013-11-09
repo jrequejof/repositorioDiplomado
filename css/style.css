@@ -1,0 +1,105 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+header,section,footer{
+	margin: 0 auto;
+	width: 900px;
+	overflow: hidden;
+}
+header{
+	background-image: url("../images/portada.png");
+	height: 333px;
+}
+
+header h1{
+	text-align: right;
+	vertical-align: middle;
+}
+
+nav{
+	background-color: black;
+	
+}
+
+nav a{
+	width: 19%;
+	display: inline-block;
+	text-align: center;
+	background: black;
+	color: white;
+	margin: 10px 0;
+	text-decoration: none;
+}
+
+aside{
+	width:350px;
+	float: right;
+}
+aside figure{
+	width: 80%;
+	margin: 5px auto;
+	text-align: center;
+}
+aside figure img{
+	border: 5px solid #279BCA;
+	padding: 3%;
+	border-radius: 50%;
+}
+
+footer{
+	background-color: #000000;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+/***********  contenedor Articulos***************/
+main{
+	width:550px;
+	float: left;
+}
+/**********Estilos para cada artículo ***********/
+article h2,article p{
+	text-align: center;
+	margin: 0;
+	padding: 0 0 0 5px;
+} 
+
+article p{
+	text-align: justify;
+} 
+article figure{
+	overflow: hidden;
+}
+article img{
+	float: left;
+	width: 30%;
+}
+article figcaption{
+	float: left;
+	width: 70%;
+}
+
+/**********  estilos del boton "Leer más" ***************/
+.button{
+	padding: 5px;
+	border-radius: 5px 0 5px 0;
+	background-color: #279BCA;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	margin:  5px auto;
+	width: 100px;
+	text-align: center;
+}
